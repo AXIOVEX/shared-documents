@@ -41,9 +41,10 @@ a{color:var(--cyan)}
 /* Document cards — symmetric centered pair, mirrors main site cards */
 .docs{padding:24px 0 72px}
 .doc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:900px;margin:0 auto}
-.doc-card{background:var(--navy-2);border:1px solid var(--line);border-radius:var(--radius);padding:32px;text-align:center}
+.doc-card{background:var(--navy-2);border:1px solid var(--line);border-radius:var(--radius);padding:32px;text-align:center;display:flex;flex-direction:column}
 .doc-card h2{font-size:22px;margin:0 0 12px}
 .doc-card p{font-size:16px;color:var(--muted);margin:0 0 20px;line-height:1.6}
+.doc-card .btn{margin-top:auto;align-self:center}
 .btn{display:inline-block;background:var(--cyan);color:#04222B;font-weight:700;font-size:15px;text-decoration:none;padding:12px 28px;border-radius:999px}
 .btn:hover{filter:brightness(1.08)}
 @media (max-width:640px){.doc-grid{grid-template-columns:1fr}}
