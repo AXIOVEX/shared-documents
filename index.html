@@ -4,48 +4,103 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Axiovex Systems — Shared Documents</title>
+<meta name="description" content="Public course materials and handouts from Axiovex Systems.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#081F32;color:#F7FCFF;margin:0;padding:0}
-main{max-width:720px;margin:0 auto;padding:48px 24px}
-.brand{display:flex;align-items:center;gap:16px;margin-bottom:8px}
-.brand img{height:56px;width:auto}
-.brand .name{font-size:22px;font-weight:700;letter-spacing:.5px}
-.tag{color:#8fa3b8;font-size:14px;margin:0 0 4px}
-.rule{height:3px;background:#00DEF6;border:0;margin:16px 0 24px}
-a{color:#00DEF6}
-.card{background:#0d2a44;border:1px solid #12395c;border-radius:8px;padding:18px 20px;margin:0 0 16px}
-.card h2{font-size:18px;margin:0 0 6px}
-.card p{margin:0 0 10px;color:#c9d8e6;font-size:14px}
-footer{margin-top:32px;font-size:12px;color:#8fa3b8;display:flex;align-items:center;gap:10px}
-footer img{height:20px;width:auto;opacity:.85}
-.contact{margin:10px 0 0;font-size:12px;color:#8fa3b8}
-.contact a{color:#00DEF6;text-decoration:none}
+:root{
+  --navy:#081F32;
+  --navy-2:#0B2740;
+  --cyan:#00DEF6;
+  --ink:#F7FCFF;
+  --muted:rgba(247,252,255,.72);
+  --faint:rgba(247,252,255,.5);
+  --line:rgba(0,222,246,.16);
+  --hairline:rgba(247,252,255,.08);
+  --radius:14px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+body{font-family:var(--font);background:var(--navy);color:var(--ink);margin:0;padding:0;-webkit-font-smoothing:antialiased}
+a{color:var(--cyan)}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+
+/* Nav — centered, mirrors main site */
+.nav{border-bottom:1px solid var(--hairline)}
+.nav-inner{display:flex;justify-content:center;padding:18px 24px}
+.nav-links{display:flex;gap:32px;align-items:center;flex-wrap:wrap;justify-content:center}
+.nav-links a{color:var(--ink);text-decoration:none;font-size:15px;font-weight:500}
+.nav-links a:hover{color:var(--cyan)}
+
+/* Hero — centered, mirrors main site */
+.hero{text-align:center;padding:72px 24px 40px}
+.hero-logo{height:84px;width:auto;margin-bottom:24px}
+.hero h1{font-size:clamp(38px,5vw,60px);margin:0 0 16px;letter-spacing:-.5px}
+.lede{font-size:18px;color:var(--muted);max-width:68ch;margin:0 auto;line-height:1.6}
+
+/* Document cards — symmetric centered pair, mirrors main site cards */
+.docs{padding:24px 0 72px}
+.doc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:900px;margin:0 auto}
+.doc-card{background:var(--navy-2);border:1px solid var(--line);border-radius:var(--radius);padding:32px;text-align:center}
+.doc-card h2{font-size:22px;margin:0 0 12px}
+.doc-card p{font-size:16px;color:var(--muted);margin:0 0 20px;line-height:1.6}
+.btn{display:inline-block;background:var(--cyan);color:#04222B;font-weight:700;font-size:15px;text-decoration:none;padding:12px 28px;border-radius:999px}
+.btn:hover{filter:brightness(1.08)}
+@media (max-width:640px){.doc-grid{grid-template-columns:1fr}}
+
+/* Footer — centered column, mirrors main site */
+.footer{border-top:1px solid var(--hairline);padding:48px 24px;text-align:center}
+.footer-inner{display:flex;flex-direction:column;align-items:center;gap:16px}
+.footer-logo{height:56px;width:auto}
+.footer p{margin:0;font-size:14px;color:var(--faint)}
+.contact{margin:0;font-size:14px;color:var(--faint)}
+.contact a{color:var(--cyan);text-decoration:none}
+.contact a:hover{text-decoration:underline}
 </style>
 </head>
-<body>
-<main>
-<div class="brand">
-<img src="assets/axiovex-logo.svg" alt="Axiovex Systems logo">
-<div>
-<div class="name">Shared Documents</div>
-<p class="tag">Public course materials and handouts from Axiovex Systems, LLC</p>
-</div>
-</div>
-<hr class="rule">
-<div class="card">
-<h2>AI 101: Beyond the Chatbot — Slides</h2>
-<p>Full slide deck (PDF) from the one-hour AI 101 course for manufacturing, engineering, defense, and public leaders.</p>
-<a href="docs/ai-101-beyond-the-chatbot-slides.pdf">Download PDF</a>
-</div>
-<div class="card">
-<h2>AI 101: Beyond the Chatbot — Handout and glossary</h2>
-<p>Take-home field guide: building blocks, risks, pilots, first steps, plus a plain-language glossary.</p>
-<a href="docs/ai-101-handout.pdf">Download PDF</a>
-</div>
-<footer><img src="assets/axiovex-logo.svg" alt="">&copy; 2026 Axiovex Systems, LLC. All rights reserved.</footer>
-<p class="contact">Questions? Contact Tristen Pierson, Axiovex Systems: <a href="mailto:start@axiovexsystems.com">start@axiovexsystems.com</a> · <a href="https://axiovexsystems.com">axiovexsystems.com</a> · <a href="https://www.linkedin.com/company/axiovexsystems">LinkedIn</a></p>
-</main>
+<body id="top">
+  <header class="nav">
+    <div class="nav-inner">
+      <nav class="nav-links" aria-label="Primary">
+        <a href="https://axiovexsystems.com">&larr; axiovexsystems.com</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <img src="assets/axiovex-logo.svg" alt="AXIOVEX Systems" class="hero-logo">
+        <h1>Shared Documents</h1>
+        <p class="lede">Public course materials and handouts from Axiovex Systems — free to download and share.</p>
+      </div>
+    </section>
+
+    <section class="docs">
+      <div class="container">
+        <div class="doc-grid">
+          <div class="doc-card">
+            <h2>AI 101: Beyond the Chatbot — Slides</h2>
+            <p>Full slide deck (PDF) from the one-hour AI 101 course for manufacturing, engineering, defense, and public leaders.</p>
+            <a class="btn" href="docs/ai-101-beyond-the-chatbot-slides.pdf">Download PDF</a>
+          </div>
+          <div class="doc-card">
+            <h2>AI 101: Beyond the Chatbot — Handout &amp; Glossary</h2>
+            <p>Take-home field guide: building blocks, risks, pilots, first steps, plus a plain-language glossary.</p>
+            <a class="btn" href="docs/ai-101-handout.pdf">Download PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="assets/axiovex-logo.svg" alt="AXIOVEX Systems" class="footer-logo">
+      <p>&copy; <span id="year">2026</span> Axiovex Systems, LLC. All rights reserved.</p>
+      <p class="contact">Questions? Contact Tristen Pierson, Axiovex Systems: <a href="mailto:start@axiovexsystems.com">start@axiovexsystems.com</a> &middot; <a href="https://axiovexsystems.com">axiovexsystems.com</a> &middot; <a href="https://www.linkedin.com/company/axiovexsystems" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
