@@ -15,6 +15,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   contact block, alongside the email.
 - Updated the revision stamps on the deck from v1.0.6 to v1.0.7.
 
+## [1.0.7] - 2026-09-29 — handout
+
+### Changed
+- Recommended-viewing link now shows the full URL
+  (https://www.youtube.com/watch?v=CMFj75kBQlU) instead of the shortened
+  youtu.be form; both resolve to the same video. Updated the revision stamps
+  from v1.0.6 to v1.0.7.
+
 ## [1.0.6] - 2026-09-29 — handout
 
 ### Changed
