@@ -24,6 +24,6 @@ published PDF is built from these files;
 
 - Brand colors: navy `#081F32`, cyan `#00DEF6`, near-white `#F7FCFF`.
   Do not recolor or redraw the AXIOVEX logo.
-- Public contact is email only: `start@axiovexsystems.com`.
+- Public contact: `start@axiovexsystems.com`, website https://axiovexsystems.com, LinkedIn https://www.linkedin.com/company/axiovexsystems.
 - The QR codes encode the canonical hosted URLs; regenerate them with the
   scripts above if those URLs change.

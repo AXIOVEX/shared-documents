@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.7] - 2026-09-29 — deck
+
+### Changed
+- Added the website (https://axiovexsystems.com) and LinkedIn page
+  (https://www.linkedin.com/company/axiovexsystems) to the closing slide
+  contact block, alongside the email.
+- Updated the revision stamps on the deck from v1.0.6 to v1.0.7.
+
+## [1.0.6] - 2026-09-29 — handout
+
+### Changed
+- Added the website (https://axiovexsystems.com) and LinkedIn page
+  (https://www.linkedin.com/company/axiovexsystems) to the handout contact
+  block, alongside the email.
+- Updated the revision stamps on the handout from v1.0.5 to v1.0.6.
+
 ## [1.0.6] - 2026-09-29 — deck
 
 ### Changed

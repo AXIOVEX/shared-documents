@@ -30,7 +30,7 @@ is the distributable.
 
 - Brand colors: navy `#081F32`, cyan `#00DEF6`, near-white `#F7FCFF`.
   Do not recolor or redraw the AXIOVEX logo.
-- Public contact is email only: `start@axiovexsystems.com`.
+- Public contact: `start@axiovexsystems.com`, website https://axiovexsystems.com, LinkedIn https://www.linkedin.com/company/axiovexsystems.
 - Slide 16's video URL must read exactly
   `https://www.youtube.com/watch?v=CMFj75kBQlU` (lowercase "l" in the video
   ID). It is set in a monospace face so the "l" is unmistakable from "I".
