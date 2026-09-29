@@ -7,12 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-09-29
+
+### Changed
+- Reworded the slide 13 / handout heading from "Three things to forbid this
+  week" to "Three boundaries to set this week", with matching wording in the
+  presenter guide. The three items themselves are unchanged.
+- Removed the phone number from all materials. Contact blocks are now email
+  only: start@axiovex-systems.com.
+- Added a contact line to the GitHub Pages home page
+  (start@axiovex-systems.com).
+- Updated the revision stamps on the deck, handout, and presenter guide from
+  v1.0.2 to v1.0.3.
+
+### Fixed
+- Corrected the printed "Humans Need Not Apply" video URL on handout page 1:
+  the text had wrong character case in the video ID, so it led to a bad page.
+  It now matches the correct address exactly:
+  https://youtu.be/CMFj75kBQlU?is=8BTKniNg34Ya80FO (the QR code was already
+  correct and is unchanged).
+
 ## [1.0.2] - 2026-09-29
 
 ### Changed
 - Updated the contact email across the deck, handout, and presenter guide from
-  Tristen.Pierson@gmail.com to start@axiovex-systems.com. The phone number
-  (352-410-0922) is unchanged.
+  Tristen.Pierson@gmail.com to start@axiovex-systems.com.
 - Updated the revision stamps on the deck, handout, and presenter guide from
   v1.0.1 to v1.0.2.
 
@@ -53,7 +72,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Corrected the "Humans Need Not Apply" video link to its canonical YouTube
   URL in both the printed link and the QR code.
 
-[unreleased]: https://github.com/AXIOVEX/shared-documents/compare/v1.0.2...HEAD
+[unreleased]: https://github.com/AXIOVEX/shared-documents/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.3
 [1.0.2]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.2
 [1.0.1]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.1
 [1.0.0]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.0
