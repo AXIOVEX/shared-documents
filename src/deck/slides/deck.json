@@ -106,7 +106,7 @@
     {
       "index": 12,
       "id": "forbid-week",
-      "page_title": "Three boundaries to set this week",
+      "page_title": "Three boundaries to set first",
       "path": "forbid-week.html",
       "layout": "statement"
     },
