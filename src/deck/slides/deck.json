@@ -1,0 +1,163 @@
+{
+  "format_version": 1,
+  "main_title": "AI 101: Beyond the Chatbot",
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "deck_css": "deck.css",
+  "theme": {
+    "id": "axiovex_navy_cyan",
+    "css_variables": {
+      "--slide-accent": "#00DEF6",
+      "--slide-bg": "#081F32",
+      "--slide-fg": "#F7FCFF",
+      "--slide-font-body": "\"Inter\"",
+      "--slide-font-display": "\"Playfair Display\"",
+      "--slide-muted": "color-mix(in srgb, var(--slide-fg) 80%, var(--slide-bg))",
+      "--slide-primary": "#00DEF6"
+    }
+  },
+  "slides": [
+    {
+      "index": 0,
+      "id": "cover",
+      "page_title": "AI 101: Beyond the Chatbot",
+      "path": "cover.html",
+      "layout": "cover"
+    },
+    {
+      "index": 1,
+      "id": "history-waves",
+      "page_title": "Four waves made today’s agents possible",
+      "path": "history-waves.html",
+      "layout": "hero-stats"
+    },
+    {
+      "index": 2,
+      "id": "ai-family",
+      "page_title": "AI is not magic. It is a stack we can inspect.",
+      "path": "ai-family.html",
+      "layout": "statement"
+    },
+    {
+      "index": 3,
+      "id": "instruction-method",
+      "page_title": "A neural network learns by adjusting many tiny connections",
+      "path": "instruction-method.html",
+      "layout": "comparison"
+    },
+    {
+      "index": 4,
+      "id": "language-model",
+      "page_title": "A large language model predicts the next piece of text",
+      "path": "language-model.html",
+      "layout": "gallery"
+    },
+    {
+      "index": 5,
+      "id": "agent-loop",
+      "page_title": "The harness turns a model into an agent",
+      "path": "agent-loop.html",
+      "layout": "headline-bullets"
+    },
+    {
+      "index": 6,
+      "id": "agent-building-blocks",
+      "page_title": "The loop repeats four simple moves",
+      "path": "agent-building-blocks.html",
+      "layout": "hero-stats"
+    },
+    {
+      "index": 7,
+      "id": "autonomy-dial",
+      "page_title": "Agentic AI is a dial, not an on-off switch",
+      "path": "autonomy-dial.html",
+      "layout": "two-column"
+    },
+    {
+      "index": 8,
+      "id": "use-case-filter",
+      "page_title": "Start where errors are reversible and evidence is available",
+      "path": "use-case-filter.html",
+      "layout": "statement"
+    },
+    {
+      "index": 9,
+      "id": "manufacturing-value",
+      "page_title": "Manufacturing value starts in bounded workflows",
+      "path": "manufacturing-value.html",
+      "layout": "headline-bullets"
+    },
+    {
+      "index": 10,
+      "id": "adoption-doors",
+      "page_title": "There are three sensible ways to adopt AI",
+      "path": "adoption-doors.html",
+      "layout": "comparison"
+    },
+    {
+      "index": 11,
+      "id": "defense-bar",
+      "page_title": "CMMC makes the data boundary an executive decision",
+      "path": "defense-bar.html",
+      "layout": "bento"
+    },
+    {
+      "index": 12,
+      "id": "forbid-week",
+      "page_title": "Three boundaries to set this week",
+      "path": "forbid-week.html",
+      "layout": "statement"
+    },
+    {
+      "index": 13,
+      "id": "hallucinations",
+      "page_title": "Hallucination is a system-design problem",
+      "path": "hallucinations.html",
+      "layout": "headline-bullets"
+    },
+    {
+      "index": 14,
+      "id": "attack-surface",
+      "page_title": "AI makes old fraud faster and more convincing",
+      "path": "attack-surface.html",
+      "layout": "headline-bullets"
+    },
+    {
+      "index": 15,
+      "id": "horses-warning",
+      "page_title": "Watch this 2014 warning: we are the horses",
+      "path": "horses-warning.html",
+      "layout": "steps"
+    },
+    {
+      "index": 16,
+      "id": "people-and-systems",
+      "page_title": "Make adaptation practical for workers and small manufacturers",
+      "path": "people-and-systems.html",
+      "layout": "two-column"
+    },
+    {
+      "index": 17,
+      "id": "design-exercise",
+      "page_title": "At your table: name one workflow and one boundary",
+      "path": "design-exercise.html",
+      "layout": "steps"
+    },
+    {
+      "index": 18,
+      "id": "questions",
+      "page_title": "Open Q&A",
+      "path": "questions.html",
+      "layout": "statement"
+    },
+    {
+      "index": 19,
+      "id": "closing",
+      "page_title": "One commitment per table: one workflow, one boundary",
+      "path": "closing.html",
+      "layout": "closing"
+    }
+  ]
+}

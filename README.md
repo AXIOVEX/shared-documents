@@ -9,6 +9,12 @@ Public documents shared by Axiovex Systems, LLC: course materials, handouts, and
 
 Browse online: https://axiovex.github.io/shared-documents/
 
+## Sources
+
+The HTML sources for the course materials live in `src/` (`src/deck/` for
+the slide deck, `src/handout/` for the handout), each with a README
+describing how to rebuild its PDF.
+
 ## License
 
 Copyright (c) 2026 Axiovex Systems, LLC. All rights reserved. See [LICENSE](LICENSE).
