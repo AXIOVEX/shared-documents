@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-09-29
+
+### Changed
+- Updated the contact email across the deck, handout, and presenter guide from
+  Tristen.Pierson@gmail.com to start@axiovex-systems.com. The phone number
+  (352-410-0922) is unchanged.
+- Updated the revision stamps on the deck, handout, and presenter guide from
+  v1.0.1 to v1.0.2.
+
 ## [1.0.1] - 2026-09-29
 
 ### Fixed
@@ -44,6 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Corrected the "Humans Need Not Apply" video link to its canonical YouTube
   URL in both the printed link and the QR code.
 
-[unreleased]: https://github.com/AXIOVEX/shared-documents/compare/v1.0.1...HEAD
+[unreleased]: https://github.com/AXIOVEX/shared-documents/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.2
 [1.0.1]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.1
 [1.0.0]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.0
