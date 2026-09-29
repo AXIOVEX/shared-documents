@@ -7,7 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.5] - 2026-09-29
+## [1.0.6] - 2026-09-29 — deck
+
+### Changed
+- Updated the public contact email on the closing slide from
+  start@axiovex-systems.com to start@axiovexsystems.com (primary domain).
+- Updated the revision stamps on the deck from v1.0.5 to v1.0.6.
+
+## [1.0.5] - 2026-09-29 — handout
+
+### Changed
+- Updated the public contact email on the handout from
+  start@axiovex-systems.com to start@axiovexsystems.com (primary domain).
+- Updated the revision stamps on the handout from v1.0.4 to v1.0.5.
+
+## [1.0.5] - 2026-09-29 — deck
 
 ### Fixed
 - Set the "Humans Need Not Apply" video URL displayed on deck slide 16 in a
