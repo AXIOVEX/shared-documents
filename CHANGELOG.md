@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-09-29
+
+### Fixed
+- Set the "Humans Need Not Apply" video URL displayed on deck slide 16 in a
+  monospace face (DejaVu Sans Mono) so the lowercase "l" in the video ID is
+  visually unmistakable from an uppercase "I". The URL text itself is
+  unchanged and byte-identical: https://www.youtube.com/watch?v=CMFj75kBQlU
+  The QR code was already correct and is unchanged.
+
+### Changed
+- Updated the revision stamps on the deck from v1.0.4 to v1.0.5. The handout
+  and presenter guide are unchanged and remain at v1.0.4.
+
 ## [1.0.4] - 2026-09-29
 
 ### Fixed
