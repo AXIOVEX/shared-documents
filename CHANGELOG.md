@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-09-29
+
+### Fixed
+- Corrected the displayed "Humans Need Not Apply" video URL on slide 16 of the
+  deck: the printed text had wrong character case
+  (https://www.youtube.com/watch?v=CMFj75KBQIU), which YouTube rejects because
+  video IDs are case-sensitive. The displayed URL now matches the correct
+  address exactly: https://youtu.be/CMFj75kBQlU?is=8BTKniNg34Ya80FO
+  (the QR code payload was already correct and is unchanged).
+- Updated the revision stamps on the deck, handout, and presenter guide from
+  v1.0.0 to v1.0.1.
+
 ## [1.0.0] - 2026-09-29
 
 ### Added
@@ -32,5 +44,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Corrected the "Humans Need Not Apply" video link to its canonical YouTube
   URL in both the printed link and the QR code.
 
-[unreleased]: https://github.com/AXIOVEX/shared-documents/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/AXIOVEX/shared-documents/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.1
 [1.0.0]: https://github.com/AXIOVEX/shared-documents/releases/tag/v1.0.0
