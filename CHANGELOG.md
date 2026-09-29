@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.8] - 2026-09-29 — deck
+
+### Changed
+- Removed the personal name from the closing slide contact block; it now
+  references Axiovex Systems with the email, website, and LinkedIn page.
+- Updated the revision stamps on the deck from v1.0.7 to v1.0.8.
+
+## [1.0.8] - 2026-09-29 — handout
+
+### Changed
+- Removed the personal name from the handout contact block; it now references
+  Axiovex Systems with the email, website, and LinkedIn page.
+- Updated the revision stamps on the handout from v1.0.7 to v1.0.8.
+
 ## [1.0.7] - 2026-09-29 — deck
 
 ### Changed
@@ -95,7 +109,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Updated the contact email across the deck, handout, and presenter guide from
-  Tristen.Pierson@gmail.com to start@axiovex-systems.com.
+  the personal address to start@axiovex-systems.com.
 - Updated the revision stamps on the deck, handout, and presenter guide from
   v1.0.1 to v1.0.2.
 
