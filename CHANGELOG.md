@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.10] - 2026-09-30 — deck
+
+### Changed
+- Hallucinations slide now frames the failure mode with a Telestrations
+  analogy: each player draws the previous player's guess and the picture
+  drifts every round, the way a language model builds each word on the last
+  so small errors compound into confident-sounding fiction. Speaker notes
+  carry the same analogy. All other slide content is unchanged.
+- Updated the revision stamps on the deck from v1.0.9 to v1.0.10.
+
 ## [1.0.9] - 2026-09-29 — deck
 
 ### Changed
