@@ -158,6 +158,12 @@ li { margin:0 0 3px; font-size:8.35pt; line-height:1.24; }
 .g-entry { margin:0 0 .065in; padding:0 0 0 .12in; border-left:2px solid var(--line); }
 .g-term { margin:0 0 2px; color:var(--navy); font-size:9.65pt; line-height:1.18; font-weight:700; }
 .g-def { margin:0; color:var(--muted); font-size:8.75pt; line-height:1.3; }
+.g-analogy { margin:.10in 0 0; padding:.08in .13in .06in; border-left:4px solid var(--cyan); background:var(--pale); break-inside:avoid; page-break-inside:avoid; }
+.g-analogy-title { margin:0 0 .05in; color:var(--navy); font-size:8.25pt; line-height:1.2; }
+.g-analogy-cols { display:grid; grid-template-columns:1fr 1fr; gap:.16in; }
+.g-analogy-cols > div:last-child { border-left:1px solid var(--line); padding-left:.16in; }
+.g-analogy-cols p { margin:0 0 .035in; color:var(--muted); font-size:7.5pt; line-height:1.25; }
+.g-analogy-cols p:last-child { margin-bottom:0; }
 .g-footer { position:absolute; left:.54in; right:.54in; bottom:.07in; display:flex; justify-content:space-between; align-items:flex-end; gap:.25in; border-top:1px solid var(--cyan); padding-top:5px; color:var(--navy); font-size:8.25pt; }
 .g-footer b { color:var(--navy); text-transform:uppercase; letter-spacing:.6px; }
 
@@ -275,7 +281,7 @@ li { margin:0 0 3px; font-size:8.35pt; line-height:1.24; }
     </div>
   </section>
 </div>
-<footer class="footer"><b>Be proactive, not reactive.</b><span>© 2026 Axiovex Systems, LLC. All rights reserved.<span class="revision-stamp">v1.0.9 · 2026-09-29</span></span></footer>
+<footer class="footer"><b>Be proactive, not reactive.</b><span>© 2026 Axiovex Systems, LLC. All rights reserved.<span class="revision-stamp">v1.0.11 · 2026-09-30</span></span></footer>
 </main>
 
 <main class="page glossary-page">
@@ -289,8 +295,6 @@ li { margin:0 0 3px; font-size:8.35pt; line-height:1.24; }
   </header>
 
   <div class="g-content">
-    <p class="g-intro">Use these definitions as a shared starting point. In practice, the exact meaning may depend on the system, contract, or policy involved.</p>
-
     <div class="g-columns">
       <div>
         <section class="g-section" aria-labelledby="ai-basics">
@@ -307,6 +311,7 @@ li { margin:0 0 3px; font-size:8.35pt; line-height:1.24; }
         <section class="g-section" aria-labelledby="risks-controls">
           <h2 class="g-section-title" id="risks-controls">Risks and Controls</h2>
           <div class="g-entry"><p class="g-term">Hallucination</p><p class="g-def">A confident-sounding answer that is false or unsupported.</p></div>
+          <div class="g-entry"><p class="g-term">Context compression</p><p class="g-def">When a long record of context is condensed into a short summary and an important qualification gets lost. Example: &ldquo;possible electrical fault &mdash; still unconfirmed&rdquo; shortened to &ldquo;electrical fault.&rdquo;</p></div>
           <div class="g-entry"><p class="g-term">Prompt injection</p><p class="g-def">Hidden or misleading text that tries to make an AI ignore its instructions.</p></div>
           <div class="g-entry"><p class="g-term">Least privilege</p><p class="g-def">Give each person or system only the access needed for the task, and no more.</p></div>
           <div class="g-entry"><p class="g-term">Pilot</p><p class="g-def">A small, bounded trial of an AI workflow with a clear measure of success, used to learn safely before a wider rollout.</p></div>
@@ -336,11 +341,37 @@ li { margin:0 0 3px; font-size:8.35pt; line-height:1.24; }
         </section>
       </div>
     </div>
+
+    <aside class="g-analogy" aria-label="Analogy: hallucinations and context compression">
+      <p class="g-analogy-title"><b>Analogy: a repair shop passing a difficult job between shifts</b></p>
+      <div class="g-analogy-cols">
+        <div>
+          <p>Imagine a repair shop passing a difficult job between shifts. Each mechanic works from the customer&rsquo;s complaint, service history, and previous mechanics&rsquo; notes. That&rsquo;s the context.</p>
+          <p>Suppose someone writes &ldquo;fuel pump tested fine&rdquo; even though that test never happened. That&rsquo;s like a hallucination: a plausible detail presented as fact.</p>
+          <p>As the notes grow, someone condenses them into a short handoff. &ldquo;Possible electrical fault&mdash;still unconfirmed&rdquo; becomes &ldquo;electrical fault.&rdquo; That&rsquo;s how context compression can lose an important qualification.</p>
+        </div>
+        <div>
+          <p>The next mechanic now rules out the pump and chases an electrical problem. Each step may sound reasonable, but it rests on faulty information.</p>
+          <p>AI can go wrong in a similar way. Keep the original records, separate verified facts from guesses, and check critical details before the next decision depends on them.</p>
+        </div>
+      </div>
+    </aside>
   </div>
 
-  <footer class="g-footer">
+  
+<style>
+/* Glossary page: reclaim vertical space for the analogy callout. */
+.glossary-page .g-content { padding-top:.14in; }
+.glossary-page .g-intro { margin-bottom:.08in; font-size:9pt; }
+.glossary-page .g-section { margin-bottom:.10in; }
+.glossary-page .g-section-title { margin-bottom:.06in; padding-bottom:.04in; }
+.glossary-page .g-entry { margin-bottom:.032in; }
+.glossary-page .g-term { font-size:9.25pt; }
+.glossary-page .g-def { font-size:8.5pt; }
+</style>
+<footer class="g-footer">
     <b>Keep the language shared and practical.</b>
-    <span>© 2026 Axiovex Systems, LLC. All rights reserved.<span class="revision-stamp">v1.0.9 · 2026-09-29</span></span>
+    <span>© 2026 Axiovex Systems, LLC. All rights reserved.<span class="revision-stamp">v1.0.11 · 2026-09-30</span></span>
   </footer>
 </main>
 

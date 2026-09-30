@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.11] - 2026-09-30 — handout
+
+### Added
+- Plain-Language Glossary page: added the full repair-shop analogy as a callout under Risks and Controls (a difficult job passed between shifts: the customer complaint, service history, and prior notes are the context; an unperformed "fuel pump tested fine" is the hallucination; condensing "possible electrical fault — still unconfirmed" into "electrical fault" is context compression; the takeaway: keep the original records, separate verified facts from guesses, and check critical details before the next decision depends on them).
+- Updated the revision stamps on the handout from v1.0.10 to v1.0.11.
+
+## [1.0.12] - 2026-09-30 — deck
+
+### Changed
+- Hallucinations slide: replaced the Telestrations analogy with a repair-shop analogy (a difficult job passed between shifts: the customer complaint, service history, and prior notes are the context; an unperformed "fuel pump tested fine" is the hallucination; condensing "possible electrical fault — still unconfirmed" into "electrical fault" is context compression). The slide now carries the full walkthrough and takeaway: keep the original records, separate verified facts from guesses, and check critical details before the next decision depends on them.
+- Speaker notes: the repair-shop walkthrough is now the main talking point; Telestrations is kept as an optional speaking point (not on the slide).
+- Updated the revision stamps on the deck from v1.0.11 to v1.0.12.
+
+## [1.0.10] - 2026-09-30 — handout
+
+### Added
+- Plain-Language Glossary: added a "Context compression" definition in Risks and Controls (condensing a long record into a short summary can lose an important qualification; example: "possible electrical fault — still unconfirmed" shortened to "electrical fault").
+- Updated the revision stamps on the handout from v1.0.9 to v1.0.10.
+
 ## [1.0.11] - 2026-09-30 — deck
 
 ### Fixed

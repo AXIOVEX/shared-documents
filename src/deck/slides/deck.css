@@ -21,7 +21,9 @@ p,li { font-size:17px; line-height:1.38; }
 strong,b { color:var(--slide-primary); }
 .shell { height:100%; padding:52px 66px 58px; display:grid; grid-template-rows:auto 1fr auto; gap:24px; align-content:center; }
 .source { font-size:11px; line-height:1.25; color:var(--slide-muted); align-self:end; }
-.analogy { font-size:18px; line-height:1.5; color:var(--slide-fg); border-left:4px solid var(--slide-accent); padding:4px 0 4px 18px; margin:6px 0 0; max-width:1080px; }
+.analogy { font-size:17px; line-height:1.45; color:var(--slide-fg); border-left:4px solid var(--slide-accent); padding:4px 0 4px 18px; margin:6px 0 0; max-width:1080px; }
+.analogy p { margin:0 0 8px; }
+.analogy p:last-child { margin-bottom:0; }
 #hallucinations .shell { grid-template-rows:auto auto auto auto; }
 
 #cover::after { content:''; position:absolute; inset:auto 0 0; height:64%; background:linear-gradient(transparent,color-mix(in srgb,var(--hero-scrim-color) 94%,transparent)); z-index:1; }
