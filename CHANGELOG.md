@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.11] - 2026-09-30 — deck
+
+### Fixed
+- Hallucinations slide: removed the large blank gap between the Telestrations
+  analogy callout and the "Why it happens / How to contain it" panels. The
+  callout was sitting in a stretched grid row; the slide now stacks its
+  blocks compactly. Also synced the `.analogy` style into `slides/deck.css`,
+  which had drifted out of the inlined copy in `index.html`.
+- Updated the revision stamps on the deck from v1.0.10 to v1.0.11.
+
 ## [1.0.10] - 2026-09-30 — deck
 
 ### Changed
