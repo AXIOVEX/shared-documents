@@ -17,7 +17,7 @@ notes = json.loads((project / 'speaker_notes.json').read_text())
 
 pngs = sorted(validate.glob('page-*.png'),
               key=lambda p: int(re.search(r'(\d+)$', p.stem).group(1)))
-assert len(pngs) == len(manifest['slides']) == 20, \
+assert len(pngs) == len(manifest['slides']), \
     f"slide/image count mismatch: {len(pngs)} pngs, {len(manifest['slides'])} manifest entries"
 
 with Image.open(pngs[0]) as im:

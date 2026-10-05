@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.13] - 2026-10-05 — deck
+
+### Added
+- New slide "Superintelligence is not a synonym for AI" — the ladder (narrow AI exists today; AGI and superintelligence are theoretical), inserted after the history slide, with speaker notes. Part of the AI → SI terminology update: AI remains the term for today's technology; SI is defined and reserved for superintelligence.
+- Updated the revision stamps on the deck from v1.0.12 to v1.0.13 (two stale v1.0.11 stamps normalized).
+
+## [1.0.12] - 2026-10-05 — handout
+
+### Added
+- Plain-Language Glossary (AI Basics): added "Narrow AI (ANI)", "General AI (AGI)", and "Superintelligence (SI)" entries defining the ladder and reserving SI for superintelligence.
+- Updated the revision stamps on the handout from v1.0.11 to v1.0.12.
+
+
 ## [1.0.11] - 2026-09-30 — handout
 
 ### Added

@@ -25,6 +25,7 @@ strong,b { color:var(--slide-primary); }
 .analogy p { margin:0 0 8px; }
 .analogy p:last-child { margin-bottom:0; }
 #hallucinations .shell { grid-template-rows:auto auto auto auto; }
+#ai-ladder .timeline { grid-template-columns:repeat(3,1fr); }
 
 #cover::after { content:''; position:absolute; inset:auto 0 0; height:64%; background:linear-gradient(transparent,color-mix(in srgb,var(--hero-scrim-color) 94%,transparent)); z-index:1; }
 #cover .cover-img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; }
