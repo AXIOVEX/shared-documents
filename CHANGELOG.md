@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.14] - 2026-10-08 — deck
+
+### Fixed
+- Cover speaker note: corrected the session timing split to match the sum of the per-slide timings — 41 minutes to teach (was 40) and 2 minutes of slack (was 3). The 10 minutes for Q&A and 7 minutes to commit and close are unchanged; the session still totals 60 minutes. No per-slide timings changed.
+- Updated the revision stamps on the deck from v1.0.13 to v1.0.14.
+
 ## [1.0.13] - 2026-10-05 — deck
 
 ### Added
