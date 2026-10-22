@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Whitepaper "Endorsed by Experts" (`docs/endorsed-by-experts-prompt-injection.pdf`) — a real indirect prompt injection (authority capture) caught during ordinary research on 2026-10-22: the incident record, four documented cases, what stopped it, and a defence checklist. Sources in `src/whitepaper/`; listed in `docs.json` (order 3) for the axiovexsystems.com/documents sync.
+
 ## [1.0.14] - 2026-10-08 — deck
 
 ### Fixed
