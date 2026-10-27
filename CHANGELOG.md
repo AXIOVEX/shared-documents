@@ -10,6 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Whitepaper "Endorsed by Experts" (`docs/endorsed-by-experts-prompt-injection.pdf`) — a real indirect prompt injection (authority capture) caught during ordinary research on 2026-10-22: the incident record, four documented cases, what stopped it, and a defence checklist. Sources in `src/whitepaper/`; listed in `docs.json` (order 3) for the axiovexsystems.com/documents sync.
 
+## [1.0.15] - 2026-10-27 — handout
+
+### Fixed
+- Wording correction (owner-directed): the handout no longer describes any organization as a retraining partner. The public-leaders line now reads "Work with your local workforce agency and community college to make it real," and the content outline describes Michigan Works! and Macomb Community College factually, as public retraining services leaders can connect workers to.
+- Updated the revision stamps on the handout from v1.0.12 to v1.0.15.
+
 ## [1.0.14] - 2026-10-08 — deck
 
 ### Fixed

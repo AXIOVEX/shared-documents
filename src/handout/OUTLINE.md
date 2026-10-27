@@ -15,7 +15,7 @@ Claim: Public AI tools must not receive CUI or export-controlled data; agents ne
 Source: User's requested red-team changes.
 
 Section: Leaders should prepare people before tasks shift
-Claim: Michigan Works! and Macomb Community College give public leaders concrete retraining partners, and the video discussion should lead to a quarterly action choice.
+Claim: Michigan Works! and Macomb Community College run public retraining services that public leaders can connect affected workers to, and the video discussion should lead to a quarterly action choice.
 Source: User's requested red-team changes and provided YouTube URL.
 
 Section: Proactive adaptation is the central leadership choice
