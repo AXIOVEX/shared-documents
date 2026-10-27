@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Axiovex Capability Statement, Version 1 — October 27, 2026 (`docs/axiovex-capability-statement.pdf`) — the company's one-page statement: the flagship Michigan data pipeline, the constraint-based planning method, core competencies, and proof of work, for boards, program operators, and contracting officers. Listed in `docs.json` (order 4) for the axiovexsystems.com/documents sync; served at the stable address https://axiovexsystems.com/documents/files/axiovex-capability-statement.pdf.
 - Whitepaper "Endorsed by Experts" (`docs/endorsed-by-experts-prompt-injection.pdf`) — a real indirect prompt injection (authority capture) caught during ordinary research on 2026-10-22: the incident record, four documented cases, what stopped it, and a defence checklist. Sources in `src/whitepaper/`; listed in `docs.json` (order 3) for the axiovexsystems.com/documents sync.
 
+### Changed
+- Axiovex Capability Statement, Version 2 — October 27, 2026 (`docs/axiovex-capability-statement.pdf`) — the flagship product is now named in the statement: Axiovex Northlight, an optimization solver employers and universities can use, named in the pitch and the flagship differentiator. Footer rolled from Version 1 to Version 2 — the first published change after the statement's promotion to production, per the owner's document-versioning rule. Served at the same stable address: https://axiovexsystems.com/documents/files/axiovex-capability-statement.pdf.
+
 ## [1.0.15] - 2026-10-27 — handout
 
 ### Fixed
