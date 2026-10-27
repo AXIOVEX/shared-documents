@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Axiovex Capability Statement, Version 1 — October 27, 2026 (`docs/axiovex-capability-statement.pdf`) — the company's one-page statement: the flagship Michigan data pipeline, the constraint-based planning method, core competencies, and proof of work, for boards, program operators, and contracting officers. Listed in `docs.json` (order 4) for the axiovexsystems.com/documents sync; served at the stable address https://axiovexsystems.com/documents/files/axiovex-capability-statement.pdf.
 - Whitepaper "Endorsed by Experts" (`docs/endorsed-by-experts-prompt-injection.pdf`) — a real indirect prompt injection (authority capture) caught during ordinary research on 2026-10-22: the incident record, four documented cases, what stopped it, and a defence checklist. Sources in `src/whitepaper/`; listed in `docs.json` (order 3) for the axiovexsystems.com/documents sync.
 
 ## [1.0.15] - 2026-10-27 — handout
