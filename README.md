@@ -10,6 +10,7 @@ Public documents shared by Axiovex Systems, LLC: course materials, handouts, and
 - [AI 101: Beyond the Chatbot — Slides (accessible HTML)](docs/ai-101-beyond-the-chatbot-slides.html)
 - [AI 101: Beyond the Chatbot — Handout, 2 pages (PDF)](docs/ai-101-handout.pdf)
 - [Endorsed by Experts — whitepaper (PDF)](docs/endorsed-by-experts-prompt-injection.pdf)
+- [Prompt Injection Is an Epistemic Attack — whitepaper (PDF)](docs/prompt-injection-epistemic-attack.pdf)
 - [Axiovex Capability Statement (PDF)](docs/axiovex-capability-statement.pdf)
 - [AXIOVEX Arcturus — Introduction, 2 pages (PDF)](docs/arcturus-one-pager.pdf)
 
