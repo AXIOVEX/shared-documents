@@ -17,14 +17,19 @@ is the distributable.
 ## Rebuild
 
 1. Edit `index.html` (or a partial in `slides/`, then re-inline).
-2. Render slides (requires node/bun, the `playwright` package, Chromium):
-   `node render_slides.mjs`
-3. Build the pptx (requires `python-pptx` and `Pillow`):
-   `python build_pptx_with_notes.py`
-4. Export the PDF: open the pptx in LibreOffice and export, or
-   `soffice --headless --convert-to pdf beginning-ai-course.pptx`
-5. Copy the PDF to `docs/ai-101-beyond-the-chatbot-slides.pdf` and bump the
-   revision stamps and `CHANGELOG.md`.
+2. Build the published PDF (requires the Playwright venv python +
+   Chromium): `~/workspace/venvs/playwright/bin/python build_pdf.py`
+   This prints the deck HTML directly, so the PDF carries real selectable
+   text, reading order, image alt text, and links. (The older route —
+   exporting the PDF from the PPTX — rasterized every slide and shipped a
+   PDF with no text at all; do not use it for the published PDF.)
+3. Copy `build/ai-101-beyond-the-chatbot-slides-final.pdf` to
+   `docs/ai-101-beyond-the-chatbot-slides.pdf`, copy `index.html` to
+   `docs/ai-101-beyond-the-chatbot-slides.html` (the accessible HTML
+   companion, version-matched to the PDF), and bump the revision stamps
+   and `CHANGELOG.md`.
+4. Presenter PPTX (unchanged): render slides with
+   `node render_slides.mjs`, then `python build_pptx_with_notes.py`.
 
 ## Notes
 

@@ -15,10 +15,20 @@ published PDF is built from these files;
 ## Rebuild
 
 1. Edit `index.html`.
-2. Print to PDF from headless Chromium at US Letter size with zero margins
-   (the stylesheet sets `@page { size: Letter; margin: 0; }`).
-3. Copy the PDF to `docs/ai-101-handout.pdf` and bump the revision stamps
-   and `CHANGELOG.md`.
+2. Build the PDF (requires the Playwright venv python + Chromium):
+   `~/workspace/venvs/playwright/bin/python build_pdf.py` — prints at US
+   Letter size with zero margins (the stylesheet sets
+   `@page { size: Letter; margin: 0; }`) and produces tagged output.
+3. Copy `build/ai-101-handout-final.pdf` to `docs/ai-101-handout.pdf` and
+   bump the revision stamps and `CHANGELOG.md`.
+
+Print-layout note: the glossary page is balanced with CSS multi-column
+flow (`.g-columns { columns: 2 }`); sections may split across the columns
+at entry boundaries, and entries are kept whole
+(`.g-entry { break-inside: avoid }`). The base `section` rule in this
+stylesheet sets `break-inside: avoid` — the glossary section rule must
+explicitly override it (`break-inside: auto`) or the columns will not
+balance and page 2 overflows beneath its footer.
 
 ## Notes
 
