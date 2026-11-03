@@ -1,0 +1,80 @@
+{
+  "manifestVersion": 1,
+  "generated": "2026-11-03",
+  "scope": "Root-level published documents of AXIOVEX/shared-documents — the docs.json collection mirrored to axiovexsystems.com/documents and to the GitHub Pages mirror. The docs/workforce/ tree keeps its own manifest (docs/workforce/manifest.json).",
+  "documents": [
+    {
+      "file": "docs/ai-101-beyond-the-chatbot-slides.pdf",
+      "title": "AI 101: Beyond the Chatbot — Slide Deck",
+      "source": "src/deck/index.html (partials in src/deck/slides/)",
+      "version": "v1.0.16",
+      "contentDate": "2026-11-03",
+      "bytes": 6852922,
+      "sha256": "edc919ea80b8985d3211c356a7e3e67f7f1dc0faa2b1d32886f22555b7d59a19",
+      "pages": 21,
+      "tagged": true,
+      "language": "en"
+    },
+    {
+      "file": "docs/ai-101-beyond-the-chatbot-slides.html",
+      "title": "AI 101: Beyond the Chatbot — Slide Deck (accessible HTML companion)",
+      "source": "src/deck/index.html",
+      "version": "v1.0.16",
+      "contentDate": "2026-11-03",
+      "bytes": 13094432,
+      "sha256": "0511f79130c9725acc5c775d4e66acc2ab6d7feca454c66acb9bbec90bc3f66e",
+      "note": "Version-matched HTML companion to the slide deck PDF, published from the same source."
+    },
+    {
+      "file": "docs/ai-101-handout.pdf",
+      "title": "AI 101: Beyond the Chatbot — Handout",
+      "source": "src/handout/index.html",
+      "version": "v1.0.16",
+      "contentDate": "2026-11-03",
+      "bytes": 868840,
+      "sha256": "f5385ce8a58d731ade149663b2b523742d187e3c0664889c3f393106bd213a19",
+      "pages": 2,
+      "tagged": true,
+      "language": "en"
+    },
+    {
+      "file": "docs/endorsed-by-experts-prompt-injection.pdf",
+      "title": "Endorsed by Experts",
+      "source": "src/whitepaper/whitepaper.md",
+      "version": null,
+      "contentDate": "2026-10-22",
+      "bytes": 946403,
+      "sha256": "ff9c3ff6fbe512cc4531e98dc799ca49c1f1d756b25c1c38faa3a45ebad43916",
+      "pages": 10,
+      "tagged": true,
+      "language": "en",
+      "note": "The document carries no version stamp; it is identified by its publication date (22 October 2026) and this checksum. Reference and structure pass 2026-11-03 (issue #49 Phase 2b) changed no findings."
+    },
+    {
+      "file": "docs/axiovex-capability-statement.pdf",
+      "title": "Capability Statement",
+      "source": "src/capability-statement/index.html",
+      "version": "Version 6",
+      "contentDate": "2026-11-03",
+      "bytes": 155220,
+      "sha256": "0a921d576a43c15c097a591e0455943d9899644546dc641b6bdb5ae82ca3caf5",
+      "pages": 1,
+      "tagged": true,
+      "language": "en",
+      "note": "Version 5 was published 2026-10-29 and reverted the same day; the sequence continues at 6. A version number is never reused for different content."
+    },
+    {
+      "file": "docs/arcturus-one-pager.pdf",
+      "title": "AXIOVEX Arcturus — Introduction",
+      "source": "src/arcturus-one-pager/index.html",
+      "version": "Version 3",
+      "contentDate": "2026-11",
+      "bytes": 176536,
+      "sha256": "c17c32833037676716a0f863b07b275e5fad0c8034663a2fcd98ab2261933d79",
+      "pages": 2,
+      "tagged": true,
+      "language": "en",
+      "note": "Two-page introduction. The published filename is a stable address and does not change."
+    }
+  ]
+}

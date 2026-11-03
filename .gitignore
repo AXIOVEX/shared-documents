@@ -1,0 +1,2 @@
+# Rebuild scratch for the src/*/build_pdf.py scripts (reproducible from source)
+src/*/build/

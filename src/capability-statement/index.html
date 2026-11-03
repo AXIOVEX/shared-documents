@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Axiovex Systems — Capability Statement</title>
+<style>
+@page { size: Letter; margin: 0; }
+* { box-sizing: border-box; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+:root {
+  --navy:#081F32; --steel:#405B70; --cyan:#00DEF6; --near:#F7FCFF;
+  --ink:#22303B; --line:#B8D5DF; --pale:#EFF6FA;
+}
+html, body { margin:0; padding:0; font-family:'Noto Sans','Liberation Sans',sans-serif; color:var(--ink); }
+.page { width:8.5in; height:11in; position:relative; overflow:hidden; background:#fff; }
+
+/* ---------- header band ---------- */
+header.band { position:absolute; top:0; left:0; right:0; height:.74in; background:var(--navy);
+  border-bottom:3px solid var(--cyan); display:flex; align-items:center; justify-content:space-between;
+  padding:.02in .55in 0; }
+header.band img { height:.44in; width:auto; }
+header.band .t { text-align:right; }
+header.band .t h1 { font-family:'Noto Serif','Liberation Serif',serif; font-weight:700; font-size:15.5pt;
+  letter-spacing:2.2px; color:var(--near); margin:0; }
+header.band .t p { font-size:9.5pt; color:var(--cyan); margin:2px 0 0; }
+
+/* ---------- footer band ---------- */
+footer.band { position:absolute; left:0; right:0; bottom:0; height:.35in; background:var(--navy);
+  display:flex; align-items:center; justify-content:space-between; padding:0 .55in; }
+footer.band span { font-size:8.6pt; color:var(--near); }
+footer.band a { font-size:8.6pt; color:var(--cyan); text-decoration:none; }
+
+main { padding:.83in .55in .45in; }
+
+h2.sec { font-size:8pt; font-weight:700; letter-spacing:2.6px; color:var(--steel);
+  text-transform:uppercase; margin:0 0 5px; display:flex; align-items:center; gap:7px; }
+h2.sec::before { content:""; width:15px; height:4px; background:var(--cyan); flex:0 0 auto; }
+h2.sec.rule { border-top:1px solid var(--line); padding-top:7px; }
+h2.sec.nodash::before { display:none; }
+
+p.prose { font-size:8.3pt; line-height:1.25; margin:0 0 6px; }
+p.prose b, li b, .pp b { color:var(--navy); }
+
+ul.sq { list-style:none; margin:0 0 2px; padding:0; }
+ul.sq li { font-size:8.3pt; line-height:1.24; margin:0 0 3.5px; padding-left:13px; position:relative; }
+ul.sq li::before { content:""; position:absolute; left:0; top:4.5px; width:6px; height:6px; background:var(--cyan); }
+
+/* ---------- differentiators panel ---------- */
+.panel { background:var(--pale); border-left:4px solid var(--cyan); padding:8px 14px 2px; margin:2px 0 6px; }
+.panel .grid { display:grid; grid-template-columns:1fr 1fr; column-gap:30px; }
+.panel h3 { font-size:9.2pt; font-weight:700; color:var(--navy); margin:0 0 2px; }
+.panel p { font-size:8.3pt; line-height:1.22; margin:0 0 8px; }
+
+/* ---------- codes + info grids ---------- */
+.codes { display:grid; grid-template-columns:1fr 1fr 1fr; column-gap:18px; margin:0 0 6px; }
+.codes p { font-size:8.4pt; line-height:1.27; margin:0 0 4px; }
+.codes b { color:var(--navy); }
+.codes .prim { color:var(--steel); font-weight:700; font-size:8pt; letter-spacing:.6px; }
+
+.info { display:grid; grid-template-columns:1fr .98fr 1.13fr; column-gap:18px;
+  border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:5px 0 2px; margin:0 0 6px; }
+.info h4 { font-size:8pt; font-weight:700; letter-spacing:1.8px; color:var(--steel); text-transform:uppercase; margin:0 0 1px; }
+.info p { font-size:8.4pt; line-height:1.25; margin:0 0 3px; }
+.info a { color:var(--ink); text-decoration:none; }
+
+.cyber { font-size:8.45pt; line-height:1.26; margin:0; }
+.cyber b { font-size:8pt; letter-spacing:1.8px; color:var(--steel); text-transform:uppercase; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="band">
+    <img src="logo-white.png" alt="Axiovex Systems">
+    <div class="t">
+      <h1>CAPABILITY STATEMENT</h1>
+      <p>Engineering clarity into difficult systems.</p>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="sec">Core Competencies</h2>
+    <p class="prose">Axiovex Systems is a Michigan consultancy and research practice. Our flagship project is a <b>data pipeline</b> that turns public data into insights and recommendations benefiting the Michigan economy as a whole. We are developing <b>Axiovex Arcturus</b> from that pipeline: a workforce and capability program, designed for state and federal funding and for Axiovex to manage, in which employers, universities, and workforce organizations participate. Arcturus is the culmination of our research and expertise, and it is not sold, licensed, or offered by subscription. We think of Arcturus as Michigan&rsquo;s North Star &mdash; the fixed point every party to that work can steer by: one clear view of what Michigan needs, who can do it, and what fits. Arcturus runs on Cloudflare Workers &mdash; stateless solver instances, queued and checkpointed jobs, backups with retention locks, and build-stamp provability &mdash; redundancy by design, with no data loss from a single failure as the design target; the public site runs on Cloudflare Pages. Our method is <b>constraint-based planning</b>: start from the real limits &mdash; the openings that actually exist, the seats and schedules available, the credentials a job requires, people&rsquo;s actual availability &mdash; then build the plan that fits those limits, checking every commitment against them before money is spent. It is the bridge between our research and our client work: how the pipeline&rsquo;s recommendations become training plans employers, educators, and programs can actually run.</p>
+    <ul class="sq">
+      <li><b>Constraint-based workforce planning</b> &mdash; employer demand matched, occupation by occupation, to the courses, credentials, seats, and start dates that can deliver it; the whole plan feasibility-checked at once, not piece by piece.</li>
+      <li><b>Workforce intelligence</b> &mdash; the Michigan Workforce Intelligence report, published monthly, and Axiovex Signals, updated daily &mdash; both built entirely on public data (BLS, the Federal Reserve&rsquo;s FRED database, WARN filings, and state releases).</li>
+      <li><b>AI education &amp; training</b> &mdash; AI 101 and applied AI sessions for employers and professionals: plain language, hands-on, and judged by what participants can do afterward, not by attendance.</li>
+      <li><b>AI adoption &amp; systems</b> &mdash; adoption planning, and custom AI systems designed and built to fit the way the organization actually runs.</li>
+      <li><b>Program design &amp; measurement</b> &mdash; workforce programs designed around placements and measured outcomes from day one. Pilot design: 10&ndash;20 employers, 20&ndash;30 participants, one occupation family &mdash; small on purpose, proven before it scales.</li>
+    </ul>
+
+    <h2 class="sec">Differentiators</h2>
+    <div class="panel">
+      <div class="grid">
+        <div>
+          <h3>Feasible &mdash; or the blocker is named</h3>
+          <p>Every plan is checked against every documented limit before commitments are made. If no workable plan exists under the model, the answer names the constraints that block it, so the real problem gets fixed first.</p>
+          <h3>Small first, scaled on evidence</h3>
+          <p>Deliberately sized at 10&ndash;20 employers and 20&ndash;30 participants in one occupation family; results are measured and reported before anything grows.</p>
+          <h3>The boundary is Axiovex&rsquo;s job</h3>
+          <p>Organizations are isolated from each other on our side, by design: least-data release to agents, agent attestation, per-organization agent policies, and a disclosure log of agent accesses. Your data stays yours, no matter what AI tools another organization uses.</p>
+        </div>
+        <div>
+          <h3>Flagship pipeline, already producing</h3>
+          <p>Our flagship data pipeline is live in public: the Michigan Workforce Intelligence report (monthly since September 2026) and Axiovex Signals (daily) &mdash; public data in, insights and recommendations out &mdash; the foundation Arcturus is being built on. Workings shown; anyone can check.</p>
+          <h3>Driven your way &mdash; website or AI</h3>
+          <p>Arcturus is being built so participants can work through their own AI assistant, the website, or a mix of the two. In development &mdash; not open access today.</p>
+          <h3>Re-solved, not patched</h3>
+          <p>When the facts change &mdash; an opening closes, a cohort shifts &mdash; the plan is re-solved against the new facts, not patched over.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="sec">Past Performance</h2>
+    <ul class="sq pp">
+      <li><b>Sep 30, 2026 &mdash; AI training delivered</b> at the Macomb Regional APEX Accelerator employer roundtable.</li>
+      <li><b>Oct 8, 2026 &mdash; AI session presented</b> to the statewide Michigan Alliance of APEX Accelerators audience.</li>
+      <li><b>Oct 2026 &mdash; &ldquo;Endorsed by Experts,&rdquo;</b> a whitepaper on AI security for organizations adopting AI, published.</li>
+      <li><b>Sep 2026 &ndash; present &mdash; Michigan Workforce Intelligence report</b>, published monthly since September 2026.</li>
+      <li><b>Sep 2026 &ndash; present &mdash; Axiovex Signals</b>, a daily public board of Michigan workforce signals and WARN filings.</li>
+    </ul>
+
+    <h2 class="sec rule nodash">Codes and Data</h2>
+    <div class="codes">
+      <div>
+        <p><b>541611</b> Management &amp; workforce-planning consulting &mdash; <span class="prim">PRIMARY</span></p>
+        <p><b>541612</b> Human resources consulting</p>
+      </div>
+      <div>
+        <p><b>611430</b> Professional &amp; management development training</p>
+        <p><b>541512</b> Computer &amp; AI systems design</p>
+      </div>
+      <div>
+        <p><b>518210</b> Data processing &amp; data products</p>
+        <p><b>541720</b> Research &amp; studies in the social sciences</p>
+      </div>
+    </div>
+
+    <div class="info">
+      <div>
+        <h4>Company</h4>
+        <p>Axiovex Systems, LLC &mdash; Michigan LLC, formed September 15, 2026</p>
+        <h4>Address</h4>
+        <p>6633 18 Mile Road, Sterling Heights, MI 48314</p>
+      </div>
+      <div>
+        <h4>Leadership</h4>
+        <p>President &middot; Rockson Arnold, Chief of Strategy</p>
+        <h4>Memberships</h4>
+        <p>Macomb Regional APEX Accelerator &middot; Velocity Collaboration Center</p>
+      </div>
+      <div>
+        <h4>Registrations</h4>
+        <p>Federal and state vendor registrations in progress (SAM.gov &middot; Michigan SIGMA VSS)</p>
+        <h4>Contact</h4>
+        <p>President &mdash; <a href="mailto:tristen@axiovexsystems.com">tristen@axiovexsystems.com</a><br>
+        Support &mdash; <a href="mailto:support@axiovexsystems.com">support@axiovexsystems.com</a></p>
+      </div>
+    </div>
+
+    <p class="cyber"><b>Cybersecurity</b>&nbsp; Axiovex helps clients organize evidence for CMMC readiness and publishes applied AI-security research (October 2026).</p>
+  </main>
+
+  <footer class="band">
+    <span>&copy; 2026 Axiovex Systems, LLC. All rights reserved. &middot; Version 6 &middot; November 3, 2026</span>
+    <a href="https://axiovexsystems.com">axiovexsystems.com</a>
+  </footer>
+</div>
+</body>
+</html>
