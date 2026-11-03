@@ -137,28 +137,44 @@ hr { border:0; border-top:1px solid var(--line); margin:20px 0; }
 (BUILD / "title.html").write_text(TITLE_HTML, encoding="utf-8")
 (BUILD / "body.html").write_text(BODY_HTML, encoding="utf-8")
 
+# ---------- combine into ONE document and print once ----------
+# Merging two separately printed PDFs (PyMuPDF insert_pdf) drops the PDF
+# structure tree, so the tagged output is lost. Printing the title page and
+# the body as a single HTML document — the title on a named zero-margin
+# page — keeps one structure tree end to end.
+import re as _re
+def _style(doc):
+    return _re.search(r"<style>(.*?)</style>", doc, flags=_re.S).group(1)
+def _body(doc):
+    return _re.search(r"<body>(.*?)</body>", doc, flags=_re.S).group(1)
+
+COMBINED_HTML = """<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<title>Endorsed by Experts — Axiovex Systems</title><style>
+""" + _style(TITLE_HTML) + "\n" + _style(BODY_HTML) + """
+@page title { size: Letter; margin: 0; }
+.titlepage { page: title; break-after: page; }
+</style></head><body>
+""" + _body(TITLE_HTML) + "\n" + html_body + """
+</body></html>"""
+(BUILD / "combined.html").write_text(COMBINED_HTML, encoding="utf-8")
+
 # ---------- render with Chromium via Playwright ----------
 from playwright.sync_api import sync_playwright
 with sync_playwright() as pw:
     browser = pw.chromium.launch()
     pg = browser.new_page()
-    pg.goto((BUILD / "title.html").as_uri())
-    pg.pdf(path=str(BUILD / "title.pdf"), prefer_css_page_size=True, print_background=True)
-    pg.goto((BUILD / "body.html").as_uri())
-    pg.pdf(path=str(BUILD / "body.pdf"), prefer_css_page_size=True, print_background=True)
+    pg.goto((BUILD / "combined.html").as_uri())
+    pg.pdf(path=str(BUILD / "combined.pdf"), prefer_css_page_size=True,
+           print_background=True, tagged=True)
     browser.close()
 
-# ---------- merge + stamp running header/footer on body pages ----------
+# ---------- stamp running header/footer on body pages ----------
 NAVY = (8/255, 31/255, 50/255); CYAN = (0, 222/255, 246/255)
 NEAR = (247/255, 252/255, 1.0); STEEL = (64/255, 91/255, 112/255)
 W, H = 612, 792  # Letter points
 
-title = pymupdf.open(BUILD / "title.pdf")
-body = pymupdf.open(BUILD / "body.pdf")
-out = pymupdf.open()
-out.insert_pdf(title)
-first_body = out.page_count
-out.insert_pdf(body)
+out = pymupdf.open(BUILD / "combined.pdf")
+first_body = 1  # page 0 is the title page
 
 f_bold = pymupdf.Font(fontfile="/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf")
 f_reg = pymupdf.Font(fontfile="/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf")
@@ -194,5 +210,6 @@ out.set_metadata({
     "subject": "A real indirect prompt injection (authority capture), caught during ordinary research — incident record, four documented cases, and a defence checklist.",
     "creator": "Axiovex Systems, LLC",
 })
+out.set_language("en-US")
 out.save(OUT, deflate=True)
 print("pages:", out.page_count, "->", OUT)
