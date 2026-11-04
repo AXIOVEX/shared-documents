@@ -86,8 +86,8 @@
       "sha256": "5d25db36b6f86e1acb0d2f34371055d18c92b627eface27f1f993e1fd9a96a67",
       "pages": 11,
       "tagged": false,
-      "language": "en",
-      "note": "The document carries no version stamp; it is identified by its publication date and this checksum. First published November 3, 2026; re-issued November 4, 2026 with corrected attribution (the research is Axiovex Systems'; the original issue credited ElectroHire). No findings or other content changed."
+      "language": null,
+      "note": "The document carries no version stamp; it is identified by its publication date and this checksum. First published November 3, 2026; re-issued November 4, 2026 with corrected attribution (the research is Axiovex Systems'; the original issue credited ElectroHire). No findings or other content changed. The PDF itself sets no language metadata, so language is recorded as null rather than assumed (corrected 2026-11-04; every other manifest entry's language was read from its PDF's Lang metadata)."
     },
     {
       "file": "docs/VEXA-WHITEPAPER-2026-11-04.pdf",
