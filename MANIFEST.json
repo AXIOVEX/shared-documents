@@ -79,15 +79,15 @@
     {
       "file": "docs/prompt-injection-epistemic-attack.pdf",
       "title": "Prompt Injection Is an Epistemic Attack",
-      "source": "src/epistemic-defense/paper.md",
+      "source": "src/epistemic-defense/paper.md (built by src/epistemic-defense/build_pdf.py)",
       "version": null,
       "contentDate": "2026-11-04",
-      "bytes": 82300,
-      "sha256": "5d25db36b6f86e1acb0d2f34371055d18c92b627eface27f1f993e1fd9a96a67",
-      "pages": 11,
-      "tagged": false,
-      "language": null,
-      "note": "The document carries no version stamp; it is identified by its publication date and this checksum. First published November 3, 2026; re-issued November 4, 2026 with corrected attribution (the research is Axiovex Systems'; the original issue credited ElectroHire). No findings or other content changed. The PDF itself sets no language metadata, so language is recorded as null rather than assumed (corrected 2026-11-04; every other manifest entry's language was read from its PDF's Lang metadata)."
+      "bytes": 952455,
+      "sha256": "7e75603f6f1537ca3672bf3ebac8084de69dfff1ad7fcf900beb59c14bc57778",
+      "pages": 12,
+      "tagged": true,
+      "language": "en",
+      "note": "The document carries no version stamp; it is identified by its publication date and this checksum. First published November 3, 2026; re-issued November 4, 2026 with corrected attribution (the research is Axiovex Systems'; the original issue credited ElectroHire), and rebuilt the same day in the standard Axiovex document template (branded title page, running header and footer with page numbers, tagged, document language set). The earlier issues were unbranded, untagged pandoc/LuaLaTeX renders that set no language metadata. No findings or other content changed in either re-issue; the rebuilt text is verified identical to the previous issue by a full pdftotext comparison. Tagged and language facts are read from the PDF itself."
     },
     {
       "file": "docs/VEXA-WHITEPAPER-2026-11-04.pdf",
