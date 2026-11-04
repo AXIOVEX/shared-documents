@@ -13,6 +13,7 @@ Public documents shared by Axiovex Systems, LLC: course materials, handouts, and
 - [Prompt Injection Is an Epistemic Attack — whitepaper (PDF)](docs/prompt-injection-epistemic-attack.pdf)
 - [Axiovex Capability Statement (PDF)](docs/axiovex-capability-statement.pdf)
 - [AXIOVEX Arcturus — Introduction, 2 pages (PDF)](docs/arcturus-one-pager.pdf)
+- [VEXA, a Projected Constraints Stack by Axiovex Systems, whitepaper v1.0 (PDF)](docs/VEXA-WHITEPAPER-2026-11-04.pdf)
 
 Browse online: https://axiovex.github.io/shared-documents/
 

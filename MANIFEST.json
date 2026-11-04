@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "scope": "Root-level published documents of AXIOVEX/shared-documents — the docs.json collection mirrored to axiovexsystems.com/documents and to the GitHub Pages mirror. The docs/workforce/ tree keeps its own manifest (docs/workforce/manifest.json).",
   "documents": [
     {
@@ -75,6 +75,32 @@
       "tagged": true,
       "language": "en",
       "note": "Two-page introduction. The published filename is a stable address and does not change."
+    },
+    {
+      "file": "docs/prompt-injection-epistemic-attack.pdf",
+      "title": "Prompt Injection Is an Epistemic Attack",
+      "source": "src/epistemic-defense/paper.md",
+      "version": null,
+      "contentDate": "2026-11-04",
+      "bytes": 82300,
+      "sha256": "5d25db36b6f86e1acb0d2f34371055d18c92b627eface27f1f993e1fd9a96a67",
+      "pages": 11,
+      "tagged": false,
+      "language": "en",
+      "note": "The document carries no version stamp; it is identified by its publication date and this checksum. First published November 3, 2026; re-issued November 4, 2026 with corrected attribution (the research is Axiovex Systems'; the original issue credited ElectroHire). No findings or other content changed."
+    },
+    {
+      "file": "docs/VEXA-WHITEPAPER-2026-11-04.pdf",
+      "title": "VEXA, a Projected Constraints Stack by Axiovex Systems",
+      "source": "AXIOVEX/vexa (whitepaper/VEXA-WHITEPAPER-2026-11-04.pdf)",
+      "version": "v1.0",
+      "contentDate": "2026-11-04",
+      "bytes": 854311,
+      "sha256": "bab62a039eded5592f7c9f261de2741f64027be4d87808afbcdfa52056306eb5",
+      "pages": 9,
+      "tagged": true,
+      "language": "en",
+      "note": "Canonical source lives in AXIOVEX/vexa; this repository carries the published copy, byte-identical to the source (SHA-256 verified at publication)."
     }
   ]
 }
