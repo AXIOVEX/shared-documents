@@ -1,6 +1,6 @@
 ---
 title: "Prompt Injection Is an Epistemic Attack: Provenance, Claim Grading, and Layered Defense for AI Agents"
-author: "ElectroHire"
+author: "Axiovex Systems"
 date: "29 October 2026"
 ---
 
@@ -77,7 +77,7 @@ Severity is tiered so that the defense stays usable. A *challenge* is never obey
 
 **Packaging.** The same discipline is published at four depths, which compose rather than compete. As a skill, it is behavior: agent-facing guidance any model can carry in context from the day it is written — and, being advice a model reads, exactly as reliable as the model's attention at the moment of attack. As harness middleware, it is enforcement: tagging, screening, and gates in code that runs on every call regardless of the model's state. As an extension to our open-source specification toolkit, it is governance: every project that uses it must write down its authority surface — who may instruct the system, through which channels, and which actions and destinations are authorized — which is precisely the principal record the screen checks against, made reviewable; the planted-injection battery becomes an assessment gate in that flow; and challenges land in a standard record format. Tuned into a model, it would be a fourth, inner layer — the subject of Section 6, with its limits stated there.
 
-The public code and documents for this work are available in the `injection-defense` repository under ElectroHire's GitHub organization: <https://github.com/electrohire/injection-defense>.
+The public code and documents for this work are published by Axiovex Systems in the `injection-defense` repository: <https://github.com/electrohire/injection-defense>.
 
 # 5. The battery, and what a red team did to it
 
@@ -150,11 +150,11 @@ Reliability, in this framing, is not the promise that an injection will never be
 - **Production-scale records.** All screening measurements use a small principal record. At production scale, record completeness — not phrasing cleverness — becomes the binding constraint on false challenges.
 - **Transfer.** Token measurements use one tokenizer family; battery results use one program's text; tuning results use one small model. None of the numbers transfer by assertion to a different stack.
 
-# About ElectroHire
+# About Axiovex Systems
 
-ElectroHire is a fractional engineering services firm — PCB design, firmware, and electronics engineering — operating in the United States and the United Kingdom. Its engineering program develops open-source tooling for disciplined, evidence-graded AI-assisted engineering, including a specification toolkit extension suite and a benchmark harness, published under ElectroHire's GitHub organization. This research comes from that program: the same insistence on provenance, graded claims, and auditable records that ElectroHire applies to engineering work, applied to the security of the agents doing it. The message-security design, battery, and related documents are published in the public `injection-defense` repository at <https://github.com/electrohire/injection-defense>.
+Axiovex Systems is a Michigan engineering consultancy. Its work includes manufacturing AI infrastructure and evidence and decision systems. Its research program develops open-source tooling for disciplined, evidence-graded AI-assisted engineering, including a specification toolkit extension suite and a benchmark harness. This research comes from that program: the same insistence on provenance, graded claims, and auditable records that Axiovex Systems applies to engineering work, applied to the security of the agents doing it. The message-security design, battery, and related documents are published in the public `injection-defense` repository at <https://github.com/electrohire/injection-defense>.
 
 # References and public artifacts
 
-- ElectroHire, *injection-defense* — public repository: design documents, the message-security skill, and battery materials. <https://github.com/electrohire/injection-defense>
-- ElectroHire, specification toolkit extension suite and benchmark harness — open-source tooling for evidence-graded AI-assisted engineering, published under ElectroHire's GitHub organization. The message-security work is distributed through this suite as an extension, and measured through this harness as middleware.
+- Axiovex Systems, *injection-defense* — public repository: design documents, the message-security skill, and battery materials. <https://github.com/electrohire/injection-defense>
+- Axiovex Systems, specification toolkit extension suite and benchmark harness — open-source tooling for evidence-graded AI-assisted engineering, published by Axiovex Systems. The message-security work is distributed through this suite as an extension, and measured through this harness as middleware.
