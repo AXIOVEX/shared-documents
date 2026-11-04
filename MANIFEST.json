@@ -95,12 +95,12 @@
       "source": "AXIOVEX/vexa (whitepaper/VEXA-WHITEPAPER-2026-11-04.pdf)",
       "version": "v1.0",
       "contentDate": "2026-11-04",
-      "bytes": 854311,
-      "sha256": "bab62a039eded5592f7c9f261de2741f64027be4d87808afbcdfa52056306eb5",
+      "bytes": 855887,
+      "sha256": "f77860678a4ed99e72528aa36842f73ff7de3534eea44099b719653210e49ad8",
       "pages": 9,
       "tagged": true,
       "language": "en",
-      "note": "Canonical source lives in AXIOVEX/vexa; this repository carries the published copy, byte-identical to the source (SHA-256 verified at publication)."
+      "note": "Canonical source lives in AXIOVEX/vexa; this repository carries the published copy, byte-identical to the source (SHA-256 verified at publication). Revised November 4, 2026 (presentational only: footer page numbers on all pages; page-break rules keep each figure whole with its caption; no content changed; source AXIOVEX/vexa commit 184cf2e). SHA-256 re-verified at republication."
     }
   ]
 }
