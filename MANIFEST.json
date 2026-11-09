@@ -95,12 +95,12 @@
       "source": "AXIOVEX/vexa (whitepaper/VEXA-WHITEPAPER-2026-11-04.pdf)",
       "version": "v1.1",
       "contentDate": "2026-11-05",
-      "bytes": 865848,
-      "sha256": "1cf473a92c9dd1c7d648d60afd1cf11dbaedf8028429fc32582f1463f40e2cd3",
+      "bytes": 866372,
+      "sha256": "4e8b728cf2b5efc416e3bd2e0acc212c866fa98d9e5b0e8d99d8db70553eb582",
       "pages": 10,
       "tagged": true,
       "language": "en",
-      "note": "Canonical source lives in AXIOVEX/vexa; this repository carries the published copy, byte-identical to the source (SHA-256 verified at publication). v1.1 edition, November 5, 2026: new Section 9 (the extension-of-mind mandate, Amendment A1); FR-16 verdict reporting added in Section 5; Section 10 updated with the Glossa Spec 090 generalization outcome; boundaries updated (source AXIOVEX/vexa commit c47d47d). Supersedes the v1.0 revised edition of November 4, 2026 (SHA-256 f77860678a4ed99e72528aa36842f73ff7de3534eea44099b719653210e49ad8). SHA-256 re-verified at republication."
+      "note": "Canonical source lives in AXIOVEX/vexa; this repository carries the published copy, byte-identical to the source (SHA-256 verified at publication). v1.1 edition, November 5, 2026: new Section 9 (the extension-of-mind mandate, Amendment A1); FR-16 verdict reporting added in Section 5; Section 10 updated with the Glossa Spec 090 generalization outcome; boundaries updated (source AXIOVEX/vexa commit c47d47d). Supersedes the v1.0 revised edition of November 4, 2026 (SHA-256 f77860678a4ed99e72528aa36842f73ff7de3534eea44099b719653210e49ad8). SHA-256 re-verified at republication. Re-issued November 9, 2026 (notice fix N-2): the title page now carries the copyright line \"© 2026 Axiovex Systems, LLC. All rights reserved.\"; no other content changed, version remains v1.1 (source AXIOVEX/vexa commit 7684b951). SHA-256 re-verified at republication."
     }
   ]
 }
