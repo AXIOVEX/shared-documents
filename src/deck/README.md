@@ -36,6 +36,9 @@ is the distributable.
 - Brand colors: navy `#081F32`, cyan `#00DEF6`, near-white `#F7FCFF`.
   Do not recolor or redraw the AXIOVEX logo.
 - Public contact: `start@axiovexsystems.com`, website https://axiovexsystems.com, LinkedIn https://www.linkedin.com/company/axiovexsystems.
-- Slide 16's video URL must read exactly
-  `https://www.youtube.com/watch?v=CMFj75kBQlU` (lowercase "l" in the video
-  ID). It is set in a monospace face so the "l" is unmistakable from "I".
+- The horses slide's video URL must read exactly
+  `https://www.youtube.com/watch?v=7Pq-S557XQU` — CGP Grey's own upload
+  (retitled "What Happened to Horses Is Happening to Us"; originally
+  published as "Humans Need Not Apply", 2014). An earlier ID
+  (CMFj75kBQlU) resolved to a third-party copy, not the author's upload;
+  it was corrected on 2026-11-09 and must not be restored.
