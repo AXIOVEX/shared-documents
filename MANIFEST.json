@@ -95,12 +95,12 @@
       "source": "AXIOVEX/vexa (whitepaper/VEXA-WHITEPAPER-2026-11-04.pdf)",
       "version": "v1.1",
       "contentDate": "2026-11-05",
-      "bytes": 866372,
-      "sha256": "4e8b728cf2b5efc416e3bd2e0acc212c866fa98d9e5b0e8d99d8db70553eb582",
+      "bytes": 866423,
+      "sha256": "a986ca3eb203c738ae32d03ecf31cd5df2b1ff9511f3a5b65a89c585ebc4fc6d",
       "pages": 10,
       "tagged": true,
       "language": "en",
-      "note": "Canonical source lives in AXIOVEX/vexa; this repository carries the published copy, byte-identical to the source (SHA-256 verified at publication). v1.1 edition, November 5, 2026: new Section 9 (the extension-of-mind mandate, Amendment A1); FR-16 verdict reporting added in Section 5; Section 10 updated with the Glossa Spec 090 generalization outcome; boundaries updated (source AXIOVEX/vexa commit c47d47d). Supersedes the v1.0 revised edition of November 4, 2026 (SHA-256 f77860678a4ed99e72528aa36842f73ff7de3534eea44099b719653210e49ad8). SHA-256 re-verified at republication. Re-issued November 9, 2026 (notice fix N-2): the title page now carries the copyright line \"© 2026 Axiovex Systems, LLC. All rights reserved.\"; no other content changed, version remains v1.1 (source AXIOVEX/vexa commit 7684b951). SHA-256 re-verified at republication."
+      "note": "Canonical source lives in AXIOVEX/vexa; this repository carries the published copy, byte-identical to the source (SHA-256 verified at publication). v1.1 edition, November 5, 2026: new Section 9 (the extension-of-mind mandate, Amendment A1); FR-16 verdict reporting added in Section 5; Section 10 updated with the Glossa Spec 090 generalization outcome; boundaries updated (source AXIOVEX/vexa commit c47d47d). Supersedes the v1.0 revised edition of November 4, 2026 (SHA-256 f77860678a4ed99e72528aa36842f73ff7de3534eea44099b719653210e49ad8). SHA-256 re-verified at republication. Re-issued November 9, 2026 (notice fix N-2): the title page now carries the copyright line \"© 2026 Axiovex Systems, LLC. All rights reserved.\"; no other content changed, version remains v1.1 (source AXIOVEX/vexa commit 7684b951). SHA-256 re-verified at republication. Revised November 16, 2026: internal register references removed under the owner's fleet rule of 2026-11-16 (no requirement numbers or development register references in user-facing copy); the register citations and the \"spec package\" phrasing are restated in plain language (\"program record\"), including inside Figure 1; no findings changed, version remains v1.1, and the paper carries the revision marking (source AXIOVEX/vexa commit e7e93fd). SHA-256 re-verified at republication."
     }
   ]
 }
